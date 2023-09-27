@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/87c3b4a7a2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <title>Baibhav Kumar</title>
+    <link rel="stylesheet" href="/index.css" />
+</head>
+
+<body>
+    <div id="headers" class="home-img">
+        <div id="container">
+            <nav id="nav-menu">
+                <img src="/images/logo.png" alt="" class="logo" />
+                <ul>
+                    <li><a href="#home" class="nav-link home">Home</a></li>
+                    <li><a href="#about" class="nav-link about">About</a></li>
+                    <li><a href="#skills" class="nav-link skills">Skill</a></li>
+                    <li><a href="#projects" class="nav-link projects">Projects</a></li>
+                    <li><a href="#contact" class="nav-link contact">Contact</a></li>
+                    <li>
+                        <a id="resume-link-1"
+                            href=""
+                            class="nav-link resume">Resume</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="home" style="display: flex">
+                <div class="header-text">
+                    <p>Full Stack Developer</p>
+                    <h1 id="user-detail-name">
+                        Hi, Myself <br /><span>Baibhav</span>
+                        Kumar
+                    </h1>
+                    <a id="resume-link-2" href="" download class="btn">Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="about section">
+        <div id="myinfo">
+            <h1 style="margin-bottom: 30px">About</h1>
+            <h2>I'am Baibhav Kumar</h2>
+            <p id="user-detail-intro">
+                An adept Full Stack Developer with hands-on experience in the MERN
+                stack, capable of designing and delivering complex web applications.
+                Experienced in web development including
+                HTML,Css,JavaScript,React,Redux with a focus on creating responsive
+                and user-friendly web interfaces. Skilled in building scalable and
+                robust web applications. Possessing exceptional problem-solving
+                skills, an ideal fit for a challenging position.
+            </p>
+            <div id="copy">
+                <p>Drop a mail</p>
+                <img src="https://seeklogo.com/images/G/gmail-new-2020-logo-32DBE11BB4-seeklogo.com.png" alt=""
+                    onclick={copyToClipboard()} />
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <div id="skillsbg">
+            <h1>TECH STACK</h1>
+            <div id="techstack">
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">HTML5</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">CSS3</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">JAVASCRIPT</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">TYPESCRIPT</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">REACT</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">REDUX</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">Github</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">NodeJS</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">ExpressJS</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">MongoDB</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/socketio/socketio-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">SocketIO</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">Solidity</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">TailwindCSS</h3>
+                </div>
+                <div>
+                    <img class="skills-card-img"
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-original.svg"
+                        alt="" />
+                    <h3 class="skills-card-name">Heroku</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div id="projectbg">
+        <h1>Projects</h1>
+        <div id="main_projects">
+            <div class="project-card">
+                <img src="/images/specxy.png" alt="" />
+                <h4 class="project-title"></h4>
+                <p class="project-description">
+                </p>
+                <h4></h4>
+                <p>
+                    
+                </p>
+                <h4></h4>
+                <ul class="project-tech-stack">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p></p>
+                <br />
+                <a class="project-github-link" href="">
+                    <p>
+                        <i class="fa-brands fa-github" style="color: #ff004f"></i>&nbsp
+                        
+                    </p>
+                </a>
+                <a class="project-deployed-link" href="">
+                    <p>
+                        <i class="fa-solid fa-link" style="color: #ff004f"></i>
+                        <span></span>
+                    </p>
+                </a>
+            </div>
+            <div class="project-card">
+                <img src="/images/specxy.png" alt="" />
+                <h4 class="project-title"></h4>
+                <p class="project-description">
+                </p>
+                <h4></h4>
+                <p>
+                    
+                </p>
+                <h4></h4>
+                <ul class="project-tech-stack">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p></p>
+                <br />
+                <a class="project-github-link" href="">
+                    <p>
+                        <i class="fa-brands fa-github" style="color: #ff004f"></i>&nbsp
+                        
+                    </p>
+                </a>
+                <a class="project-deployed-link" href="">
+                    <p>
+                        <i class="fa-solid fa-link" style="color: #ff004f"></i>
+                        <span></span>
+                    </p>
+                </a>
+            </div>
+            <div class="project-card">
+                <img src="/images/specxy.png" alt="" />
+                <h4 class="project-title"></h4>
+                <p class="project-description">
+                </p>
+                <h4></h4>
+                <p>
+                    
+                </p>
+                <h4></h4>
+                <ul class="project-tech-stack">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p></p>
+                <br />
+                <a class="project-github-link" href="">
+                    <p>
+                        <i class="fa-brands fa-github" style="color: #ff004f"></i>&nbsp
+                        
+                    </p>
+                </a>
+                <a class="project-deployed-link" href="">
+                    <p>
+                        <i class="fa-solid fa-link" style="color: #ff004f"></i>
+                        <span></span>
+                    </p>
+                </a>
+            </div>
+            <div class="project-card">
+                <img src="/images/specxy.png" alt="" />
+                <h4 class="project-title"></h4>
+                <p class="project-description">
+                </p>
+                <h4></h4>
+                <p>
+                    
+                </p>
+                <h4></h4>
+                <ul class="project-tech-stack">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p></p>
+                <br />
+                <a class="project-github-link" href="">
+                    <p>
+                        <i class="fa-brands fa-github" style="color: #ff004f"></i>&nbsp
+                        
+                    </p>
+                </a>
+                <a class="project-deployed-link" href="">
+                    <p>
+                        <i class="fa-solid fa-link" style="color: #ff004f"></i>
+                        <span></span>
+                    </p>
+                </a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="contact">
+
+    </div>
+</body>
+
+</html>
+<script src="/index.js"></script>
