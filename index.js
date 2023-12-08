@@ -118,7 +118,7 @@ if (localStorage.getItem("theme") === "light_theme") {
 //Function to automatically download file to system
 function downloadResume() {
   window.open(
-    "https://docs.google.com/document/d/1Vu5SFv3nBwEFCrM1R5uKjno4J512uCxzud1PLHm3V4U/view",
+    "https://test-resume.masaischool.com/dashboard/profile/?selectedTemplate=ClassicProfessional&resumeId=6572ed080968ffcea2e19a49&profileId=self",
     "_blank"
   );
 }
